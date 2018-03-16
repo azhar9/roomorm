@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="40dp"
+    tools:context="com.astudio.roomorm.HomeFragment">
+
+    <Button
+        android:id="@+id/addUser_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add User" />
+
+    <Button
+        android:id="@+id/viewUser_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View User" />
+
+    <Button
+        android:id="@+id/delUser_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete User" />
+
+    <Button
+        android:id="@+id/updateUser_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update User" />
+
+
+</LinearLayout>

@@ -1,0 +1,15 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context="com.astudio.roomorm.ReadUserFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/userDataView_id"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Users Data" />
+
+</ScrollView>
